@@ -1,3 +1,16 @@
+###############          ##########        #######   #######        #########      #######       #
+#              #        #          #             #         #       #         #           #
+#               #       #          #            #         #        #         #          #        #
+#              #        #          #           #         #         #         #         #         #
+###############         ############          #         #          ###########        #          #
+#              #        #          #         #         #           #         #       #           #
+#               #       #          #        #         #            #         #      #            #
+#              #        #          #       #         #             #         #     #             #
+###############         #          #      #######    #######       #         #    #######        #
+
+# Developer: Mohammad Ali Bazzazi (me)
+
+########################### START ###########################
 from kivy.config import Config
 Config.set("graphics", "resizable", 0)
 from kivy.app import App
@@ -20,3 +33,4 @@ class SimpleClock(App):
         Clock.schedule_interval(self.update_time, 0)
 
 SimpleClock().run()
+########################### END ###########################
